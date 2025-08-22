@@ -69,21 +69,33 @@
 	</div>
 	<div class="relative hidden flex-col items-center justify-center gap-4 xl:flex">
 		<div class="flex flex-col items-center justify-center gap-2">
-			<img
-				src="/before.jpg"
-				alt="Hero"
-				class="mx-auto rounded-lg border-4 border-[#feecd1]"
-				class:hidden={useSveltekitStarter}
-			/>
-			<img
-				src="/after.jpg"
-				alt="Hero"
-				class="mx-auto hidden rounded-lg border-4 border-[#feecd1]"
-				class:!block={useSveltekitStarter}
-			/>
+			<div class:hidden={useSveltekitStarter}>
+				<img
+					src="/before.jpg"
+					alt="Hero"
+					class="mx-auto rounded-lg border-4 border-[#feecd1] dark:hidden"
+				/>
+				<img
+					src="/before-dark.jpg"
+					alt="Hero"
+					class="mx-auto hidden rounded-lg border-4 border-[#feecd1cc] dark:block"
+				/>
+			</div>
+			<div class="hidden" class:!block={useSveltekitStarter}>
+				<img
+					src="/after.jpg"
+					alt="Hero"
+					class="mx-auto rounded-lg border-4 border-[#feecd1] dark:hidden"
+				/>
+				<img
+					src="/after-dark.jpg"
+					alt="Hero"
+					class="mx-auto hidden rounded-lg border-4 border-[#feecd1cc] dark:block"
+				/>
+			</div>
 			<Label
 				class={cn(
-					'text-xs cursor-pointer rounded-lg bg-secondary p-2 transition hover:text-secondary-foreground',
+					'cursor-pointer rounded-lg bg-secondary p-2 text-xs transition hover:text-secondary-foreground',
 					useSveltekitStarter ? 'text-secondary-foreground' : 'text-muted-foreground'
 				)}
 			>

@@ -53,7 +53,7 @@
 	<div class="container mx-auto px-4">
 		<div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
 			{#each testimonials as testimonial, i (i)}
-				<div class="rounded-xl bg-card p-6 text-card-foreground">
+				<div class="rounded-xl bg-card dark:bg-accent/30 p-6 text-card-foreground">
 					<p class="mb-4 text-muted-foreground">"{testimonial.quote}"</p>
 					<div>
 						<p class="font-semibold text-foreground">{testimonial.name}</p>
