@@ -22,8 +22,8 @@
 	];
 </script>
 
-<section class="py-24">
-	<div class="container mx-auto gap-8 px-4">
+<section class="py-24 px-4">
+	<div class="container mx-auto gap-8">
 		<div class="grid grid-cols-1 xl:grid-cols-3 items-center gap-4">
 			<div class="xl:col-span-2 items-center grid sm:grid-cols-2 2xl:grid-cols-4">
 				{#each metrics as { label, value }, i (i)}

@@ -42,7 +42,7 @@
 	];
 </script>
 
-<section class="bg-secondary py-24">
+<section class="bg-secondary py-24 px-4">
 	<div class="mx-auto mb-16 max-w-4xl text-center">
 		<h2 class="mb-2 text-4xl font-medium text-foreground">What Developers Are Saying</h2>
 		<p class="leading-relaxed text-muted-foreground">
@@ -50,7 +50,7 @@
 		</p>
 	</div>
 
-	<div class="container mx-auto px-4">
+	<div class="container mx-auto">
 		<div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
 			{#each testimonials as testimonial, i (i)}
 				<div class="rounded-xl bg-card dark:bg-accent/30 p-6 text-card-foreground">

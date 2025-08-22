@@ -64,8 +64,8 @@
 	];
 </script>
 
-<section class="bg-secondary py-24" id="technologies-section">
-	<div class="container mx-auto gap-8 px-4">
+<section class="bg-secondary py-24 px-4" id="technologies-section">
+	<div class="container mx-auto gap-8">
 		<div class="mx-auto mb-16 max-w-4xl text-center">
 			<h2 class="mb-2 text-4xl font-medium text-foreground">
 				Powered by Modern, Battle-Tested Tools

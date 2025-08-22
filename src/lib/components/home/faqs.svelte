@@ -33,7 +33,7 @@
 	];
 </script>
 
-<section id="faqs-section" class="py-24">
+<section id="faqs-section" class="py-24 px-4">
 	<div class="mx-auto mb-16 max-w-4xl text-center">
 		<h2 class="mb-2 text-4xl font-medium text-foreground">Frequently Asked Questions</h2>
 		<p class="leading-relaxed text-muted-foreground">
